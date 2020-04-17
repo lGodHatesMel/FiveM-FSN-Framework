@@ -26,7 +26,7 @@ start fsn_bankrobbery
 start fsn_playerlist
 start fsn_timeandweather
 start fsn_cargarage
-start fsn_hungerandthirst
+start fsn_needs
 start fsn_licenses
 start fsn_jobs
 start fsn_loadingscreen
