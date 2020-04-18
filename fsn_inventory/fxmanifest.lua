@@ -1,20 +1,20 @@
---[[/ :FSN: \]]--
-resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
+fx_version 'bodacious'
+games { 'gta5' }
+
 client_script '@fsn_main/cl_utils.lua'
 server_script '@fsn_main/sv_utils.lua'
 client_script '@fsn_main/server_settings/sh_settings.lua'
 server_script '@fsn_main/server_settings/sh_settings.lua'
 server_script '@mysql-async/lib/MySQL.lua'
---[[/ :FSN: \]]--
 
-exports({
+exports {
   'fsn_HasPhone',
   'fsn_HasItem',
   'fsn_GetItemAmount',
   'fsn_GetItemDetails',
   'fsn_CanCarry',
   'EnumerateObjects'
-})
+}
 
 -- Item scripts
 client_script '_item_misc/binoculars.lua'
@@ -22,18 +22,18 @@ client_script '_item_misc/dm_laundering.lua'
 client_script '_item_misc/burger_store.lua'
 client_script '_item_misc/cl_breather.lua'
 
----------------------------------------------------- new script stuff below
-	client_script 'cl_presets.lua'
-	client_script 'cl_uses.lua'
-	client_script 'cl_inventory.lua'
-	client_script 'pd_locker/cl_locker.lua'
-	--client_script 'cl_dropping.lua'
-	client_script 'cl_vehicles.lua'
-	server_script 'sv_inventory.lua'
-	--server_script 'sv_dropping.lua'
-	server_script 'sv_vehicles.lua'
-	server_script 'pd_locker/sv_locker.lua'
--- new gui
+
+client_script 'cl_presets.lua'
+client_script 'cl_uses.lua'
+client_script 'cl_inventory.lua'
+client_script 'pd_locker/cl_locker.lua'
+--client_script 'cl_dropping.lua'
+client_script 'cl_vehicles.lua'
+server_script 'sv_inventory.lua'
+--server_script 'sv_dropping.lua'
+server_script 'sv_vehicles.lua'
+server_script 'pd_locker/sv_locker.lua'
+
 ui_page "html/ui.html"
 files {
   "html/ui.html",
