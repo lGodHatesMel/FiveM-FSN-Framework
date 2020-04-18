@@ -1,11 +1,11 @@
---[[/	:FSN:	\]]--
-resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
+fx_version 'bodacious'
+games { 'gta5' }
+
 client_script '@fsn_main/cl_utils.lua'
 server_script '@fsn_main/sv_utils.lua'
 client_script '@fsn_main/server_settings/sh_settings.lua'
 server_script '@fsn_main/server_settings/sh_settings.lua'
 server_script '@mysql-async/lib/MySQL.lua'
---[[/	:FSN:	\]]--
 
 description "Simple Notification Script using https://notifyjs.com/"
 
