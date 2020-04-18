@@ -22,7 +22,6 @@ client_script '_item_misc/dm_laundering.lua'
 client_script '_item_misc/burger_store.lua'
 client_script '_item_misc/cl_breather.lua'
 
-
 client_script 'cl_presets.lua'
 client_script 'cl_uses.lua'
 client_script 'cl_inventory.lua'
