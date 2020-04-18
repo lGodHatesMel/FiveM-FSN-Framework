@@ -1,3 +1,6 @@
+fx_version 'bodacious'
+games { 'gta5' }
+
 ui_page "gui/ui.html"
 
 files {
