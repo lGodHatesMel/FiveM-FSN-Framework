@@ -1,17 +1,16 @@
---[[/	:FSN:	\]]--
-resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
+fx_version 'bodacious'
+games { 'gta5' }
+
 client_script '@fsn_main/cl_utils.lua'
 server_script '@fsn_main/sv_utils.lua'
 client_script '@fsn_main/server_settings/sh_settings.lua'
 server_script '@fsn_main/server_settings/sh_settings.lua'
 server_script '@mysql-async/lib/MySQL.lua'
---[[/	:FSN:	\]]--
 
--- gui stuffs
 ui_page 'html/index.html'
 
 files({
-	-- main stuff
+	
 	'html/index.html', 
 	'html/index.css', -- ALl this has in it is the Div class for the Phone Frame along with the Wifi,Battery, and Time.
 	'html/index.js',
