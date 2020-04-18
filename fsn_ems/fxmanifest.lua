@@ -1,11 +1,11 @@
---[[/	:FSN:	\]]--
-resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
+fx_version 'bodacious'
+games { 'gta5' }
+
 client_script '@fsn_main/cl_utils.lua'
 server_script '@fsn_main/sv_utils.lua'
 client_script '@fsn_main/server_settings/sh_settings.lua'
 server_script '@fsn_main/server_settings/sh_settings.lua'
 server_script '@mysql-async/lib/MySQL.lua'
---[[/	:FSN:	\]]--
 
 client_script 'client.lua'
 client_script 'cl_advanceddamage.lua'
@@ -18,7 +18,7 @@ server_script 'server.lua'
 server_script 'sv_carrydead.lua'
 server_script 'beds/server.lua'
 
-exports({
+exports {
   'fsn_IsDead',
   'fsn_EMSDuty',
   'fsn_getEMSLevel',
@@ -26,4 +26,4 @@ exports({
   'ems_isBleeding',
   'isCrouching',
   'carryingWho'
-})
+}
